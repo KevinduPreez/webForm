@@ -1,0 +1,77 @@
+body{
+  background-color:rgb(38,71,103);
+}
+
+#container{
+  display:flex;
+  justify-content:center;
+}
+
+#border{
+  border-radius:10px;
+  text-align:center;
+  margin:2em;
+  padding:10px;
+  background-color:rgb(237, 237, 237);
+  box-shadow: 7px 5px 15px rgb(61, 61, 61);
+}
+
+#description{
+  width:100%;
+  padding:5px;
+  margin:0px;
+}
+
+#formContain{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+#multi{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-top: 15px;
+}
+
+.multi-button{
+  padding:10px 10px 0px 10px
+}
+
+input:invalid:not(:focus) {
+    outline: 1px solid #f00;
+}
+
+#survey-form, #radio {
+  display: flex;
+  flex-direction:column;
+  width:;
+}
+
+#number, #drop-down{
+  width:33%;
+}
+
+#name, #email, #tel, #number, #drop-down{
+  margin:2%;
+}
+
+.side{
+  display:inline-flex;
+}
+
+.red{
+  margin:5px;
+}
+
+#textarea{
+  display:flex;
+  flex-direction:column;
+}
+
+button{
+  margin-top:5%;
+  width:100%;
+  border-radius:4px;
+}

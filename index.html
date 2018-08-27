@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="border">
+            <!-- TITLE AND DESCRIPTION-->
+            <h1 id="title">HELLO WORLD</h1>
+            <p id="description">
+                THIS IS MY DESCRIPTION!
+            </p>
+            <p>I DESCRIBE THINGS!</p>
+            <!-- FORM -->
+            <div id="formContain">
+                <form action="" id="survey-form">
+                    <!--NAME INPUT -->
+                    <label for="name" id="name-label" style="display:none">Name</label>
+                    <input action="input" id="name" placeholder="Name" class="input-box" required></input>
+                    <!--EMAIL INPUT-->
+                    <label for="email" id="email-label" style="display:none">Email</label>
+                    <input type="email" id="email" placeholder="email@test.com" pattern=".+" ".com" size="30" class="input-box" required>
+                    <!--TELEPHONE INPUT-->
+                    <input type="tel" id="tel" required pattern="[0-9]{10}" placeholder="Phone Number">
+                    <div class="side">
+                        <!--AGE INPUT-->
+                        <label for="number" id="number-label" style="display:none">Number</label>
+                        <input type="number" id="number" min="5" max="110" placeholder="Age" required>
+                        <!--SEX INPUT-->
+                        <select id="drop-down" class="form-control" name="Sex" id="dropdown">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div id="multi">
+                        <!-- RADIO BUTTON SELECTION -->
+                        <div class="multi-button">
+                            <span class="red">
+  <label for="radio">What's your favourite colour?</label>
+    <div>
+      <input class="radio-inline red" type="radio" name="red" value="red">Red</label>
+      <input class="radio-inline red" type="radio" name="red" value="red">Red</label>
+      <input class="radio-inline" type="radio" name="blue" value="red">Blue</label>
+      <input class="radio-inline" type="radio" name="green" value="red">Green</label>
+          <!-- CHECK BOX SELECTION -->
+          <div class="multi-button">
+            <span class="red">
+  <label for="radio">Other favourite colours?</label>
+    <div>
+      </span>
+                            <span class="red">
+      <input class="radio-inline" type="checkbox" name="pink" value="pink">Pink
+      </span>
+                            <span class="red">
+      <input class="radio-inline" type="checkbox" name="orange" value="orange">Orange
+      </span>
+                            <span class="red">
+      <input class="radio-inline" type="checkbox" name="brown" value="brown">Brown
+      </span>
+                        </div>
+                    </div>
+                    <!--TEXT AREA INPUT-->
+                    <div id="textarea">
+                        <lable>Additional Comments</lable>
+                        <textarea rows="4" cols="30" placeholder="I will survive..."></textarea>
+                    </div>
+                    <button type="submit" form="form" value="Submit" class="btn-success" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
